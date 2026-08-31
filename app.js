@@ -10,7 +10,8 @@ async function loadTools() {
 
     try {
         // Cache buster included
-        const response = await fetch('data.json?t=' + Date.now()); 
+       const jsonUrl = 'https://jsonguide.technologychannel.org/ai/aitoolstest.json';
+        const response = await fetch(jsonUrl); 
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
 
         allTools = await response.json();
