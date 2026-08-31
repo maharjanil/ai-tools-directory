@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ai-tools-v1';
+const CACHE_NAME = 'ai-tools-v2';
 const JSON_URL = 'https://jsonguide.technologychannel.org/ai/aitoolstest.json';
 
 // Files to cache for instant loading
