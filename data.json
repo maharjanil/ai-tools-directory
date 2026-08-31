@@ -1,0 +1,18 @@
+[
+  {
+    "Tool Name": "Napkin AI",
+    "Category": "Image",
+    "Description": "Turns your text into professional visuals, diagrams, and flowcharts.",
+    "Top 3 Features": "Text-to-visual; Multiple diagram styles; Editable exports",
+    "Web Link": "https://napkin.ai/",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/napkin.png"
+  },
+  {
+    "Tool Name": "ElevenLabs",
+    "Category": "Sound",
+    "Description": "Turns written text into natural, realistic speech and AI music.",
+    "Top 3 Features": "Realistic text to speech; Voice cloning; AI song generation",
+    "Web Link": "https://elevenlabs.io/",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/elevenlabs.png"
+  }
+]
