@@ -9,9 +9,7 @@ async function loadTools() {
     const errorMsg = document.getElementById('error-message');
 
     try {
-        // Cache buster included
-       const jsonUrl = 'https://jsonguide.technologychannel.org/ai/aitoolstest.json';
-        const response = await fetch(jsonUrl); 
+        const response = await fetch('https://jsonguide.technologychannel.org/ai/aitoolstest.json');
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
 
         allTools = await response.json();
@@ -19,6 +17,7 @@ async function loadTools() {
         
         setupCategoryFilters();
         applyFiltersAndRender();
+        setupOverviewModal();
 
     } catch (error) {
         console.error('Error:', error);
@@ -27,7 +26,7 @@ async function loadTools() {
     }
 }
 
-// 2. Setup Category Buttons Dynamically
+// 2. Setup Category Buttons
 function setupCategoryFilters() {
     const categories = ['All', ...new Set(allTools.map(tool => tool.Category))];
     const container = document.getElementById('category-filters');
@@ -39,25 +38,20 @@ function setupCategoryFilters() {
         </button>
     `).join('');
 
-    // Add click listeners to new buttons
     document.querySelectorAll('.filter-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
-            // Update active state
             document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
             e.target.classList.add('active');
-            
-            // Update state and re-render
             currentCategory = e.target.dataset.category;
             applyFiltersAndRender();
         });
     });
 }
 
-// 3. Master Filter & Sort Function
+// 3. Master Filter & Sort
 function applyFiltersAndRender() {
     let result = [...allTools];
 
-    // A. Filter by Search
     if (currentSearch) {
         result = result.filter(tool => 
             tool['Tool Name'].toLowerCase().includes(currentSearch) ||
@@ -67,12 +61,10 @@ function applyFiltersAndRender() {
         );
     }
 
-    // B. Filter by Category
     if (currentCategory !== 'All') {
         result = result.filter(tool => tool.Category === currentCategory);
     }
 
-    // C. Sort
     result.sort((a, b) => {
         if (currentSort === 'name-asc') return a['Tool Name'].localeCompare(b['Tool Name']);
         if (currentSort === 'name-desc') return b['Tool Name'].localeCompare(a['Tool Name']);
@@ -83,7 +75,7 @@ function applyFiltersAndRender() {
     renderTools(result);
 }
 
-// 4. Render Cards (NOW INCLUDING ANDROID/iOS LINKS!)
+// 4. Render Main Cards (3 per row on all screens)
 function renderTools(toolsToDisplay) {
     const container = document.getElementById('tools-container');
     container.innerHTML = ''; 
@@ -100,9 +92,8 @@ function renderTools(toolsToDisplay) {
 
     toolsToDisplay.forEach(tool => {
         const col = document.createElement('div');
-        col.className = 'col-md-6 col-lg-4';
+        col.className = 'col-12 col-md-6 col-lg-4'; // 3 per row on large screens
 
-        // Build Mobile Links HTML conditionally
         let mobileLinksHtml = '<div class="mt-3 d-flex gap-2">';
         if (tool['Android Link'] && tool['Android Link'] !== '–') {
             mobileLinksHtml += `<a href="${tool['Android Link']}" target="_blank" class="btn btn-sm btn-outline-success"><i class="bi bi-android2"></i> Android</a>`;
@@ -138,7 +129,49 @@ function renderTools(toolsToDisplay) {
     });
 }
 
-// 5. Event Listeners for Search and Sort
+// 5. Setup Overview Modal
+function setupOverviewModal() {
+    const overviewModal = document.getElementById('overviewModal');
+    
+    overviewModal.addEventListener('show.bs.modal', () => {
+        // Update stats
+        document.getElementById('total-tools-count').textContent = allTools.length;
+        
+        const uniqueCategories = [...new Set(allTools.map(t => t.Category))];
+        document.getElementById('total-categories-count').textContent = uniqueCategories.length;
+        
+        const toolsWithApps = allTools.filter(t => 
+            (t['Android Link'] && t['Android Link'] !== '–') || 
+            (t['IOS Link'] && t['IOS Link'] !== '–')
+        ).length;
+        document.getElementById('tools-with-apps-count').textContent = toolsWithApps;
+
+        // Render all tools in overview (3 per row)
+        const overviewContainer = document.getElementById('overview-tools-container');
+        overviewContainer.innerHTML = allTools.map(tool => `
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card overview-tool-card h-100 shadow-sm">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-2">
+                            <img src="${tool['Featured Image']}" alt="${tool['Tool Name']}" 
+                                 style="width: 40px; height: 40px; object-fit: cover; border-radius: 8px; margin-right: 10px;">
+                            <div>
+                                <h6 class="mb-0 fw-bold">${tool['Tool Name']}</h6>
+                                <small class="text-muted">${tool.Category}</small>
+                            </div>
+                        </div>
+                        <p class="small text-muted mb-2">${tool.Description.substring(0, 80)}...</p>
+                        <a href="${tool['Web Link']}" target="_blank" class="btn btn-sm btn-outline-primary w-100">
+                            <i class="bi bi-box-arrow-up-right"></i> Visit
+                        </a>
+                    </div>
+                </div>
+            </div>
+        `).join('');
+    });
+}
+
+// 6. Event Listeners
 document.getElementById('search-input').addEventListener('input', (e) => {
     currentSearch = e.target.value.toLowerCase();
     applyFiltersAndRender();
@@ -149,13 +182,12 @@ document.getElementById('sort-select').addEventListener('change', (e) => {
     applyFiltersAndRender();
 });
 
-// 6. Dark Mode Toggle Logic
+// 7. Dark Mode
 const themeToggle = document.getElementById('theme-toggle');
 const themeIcon = document.getElementById('theme-icon');
 const themeText = document.getElementById('theme-text');
 const htmlElement = document.documentElement;
 
-// Check for saved user preference
 const savedTheme = localStorage.getItem('theme') || 'light';
 htmlElement.setAttribute('data-bs-theme', savedTheme);
 updateThemeUI(savedTheme);
@@ -163,7 +195,6 @@ updateThemeUI(savedTheme);
 themeToggle.addEventListener('click', () => {
     const currentTheme = htmlElement.getAttribute('data-bs-theme');
     const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-    
     htmlElement.setAttribute('data-bs-theme', newTheme);
     localStorage.setItem('theme', newTheme);
     updateThemeUI(newTheme);
