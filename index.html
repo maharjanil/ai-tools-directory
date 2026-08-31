@@ -42,13 +42,43 @@
             70% { box-shadow: 0 0 0 10px rgba(13, 110, 253, 0); }
             100% { box-shadow: 0 0 0 0 rgba(13, 110, 253, 0); }
         }
-        .footer-link {
-            cursor: pointer;
+        
+        /* Bottom App Bar Styles */
+        .bottom-app-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--bs-body-bg);
+            border-top: 1px solid var(--bs-border-color);
+            padding: 0.75rem 0;
+            z-index: 1030;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+        }
+        .bottom-app-bar .nav-link {
+            color: var(--bs-body-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0.5rem 1rem;
             transition: color 0.2s;
         }
-        .footer-link:hover {
+        .bottom-app-bar .nav-link:hover {
             color: #0d6efd !important;
         }
+        .bottom-app-bar .nav-link i {
+            font-size: 1.5rem;
+            margin-bottom: 0.25rem;
+        }
+        .bottom-app-bar .nav-link span {
+            font-size: 0.75rem;
+        }
+        
+        /* Add padding to body to account for fixed bottom bar */
+        body {
+            padding-bottom: 80px;
+        }
+        
         .stat-card {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
@@ -134,29 +164,25 @@
         <div id="tools-container" class="row g-4"></div>
     </div>
 
-    <!-- ============ FOOTER SECTION ============ -->
-    <footer class="bg-body-tertiary border-top py-4 mt-5">
+    <!-- ============ BOTTOM APP BAR ============ -->
+    <nav class="bottom-app-bar">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 mb-3 mb-md-0">
-                    <h5 class="fw-bold"><i class="bi bi-robot"></i> AI Tools Directory</h5>
-                    <p class="text-muted small mb-0">Discover the best AI tools for video, coding, design, and more.</p>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <a class="nav-link" data-bs-toggle="modal" data-bs-target="#overviewModal">
+                        <i class="bi bi-bar-chart-fill"></i>
+                        <span>Overview</span>
+                    </a>
                 </div>
-                <div class="col-md-6 text-md-end">
-                    <div class="d-flex gap-4 justify-content-md-end">
-                        <a class="footer-link text-decoration-none text-muted" data-bs-toggle="modal" data-bs-target="#overviewModal">
-                            <i class="bi bi-bar-chart-fill"></i> Overview
-                        </a>
-                        <a class="footer-link text-decoration-none text-muted" data-bs-toggle="modal" data-bs-target="#aboutModal">
-                            <i class="bi bi-info-circle-fill"></i> About
-                        </a>
-                    </div>
+                <div class="col-auto">
+                    <a class="nav-link" data-bs-toggle="modal" data-bs-target="#aboutModal">
+                        <i class="bi bi-info-circle-fill"></i>
+                        <span>About</span>
+                    </a>
                 </div>
             </div>
-            <hr class="my-3">
-            <p class="text-center text-muted small mb-0">© 2026 AI Tools Directory. Built with ❤️ using Bootstrap 5.</p>
         </div>
-    </footer>
+    </nav>
 
     <!-- ============ ABOUT MODAL ============ -->
     <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
