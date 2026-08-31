@@ -2,17 +2,522 @@
   {
     "Tool Name": "Napkin AI",
     "Category": "Image",
-    "Description": "Turns your text into professional visuals, diagrams, and flowcharts.",
-    "Top 3 Features": "Text-to-visual; Multiple diagram styles; Editable exports",
+    "Description": "Napkin turns your text into professional visuals, including diagrams, infographics, and flowcharts, so sharing your ideas is quick and effective.",
+    "Top 3 Features": "Text-to-visual generation; Multiple auto-generated diagram styles; Editable exports for slides, docs & posts",
     "Web Link": "https://napkin.ai/",
+    "Android Link": "–",
+    "IOS Link": "–",
     "Featured Image": "https://content.learnaibasic.com/aitoolsimages/napkin.png"
   },
-  {
+ {
     "Tool Name": "ElevenLabs",
     "Category": "Sound",
-    "Description": "Turns written text into natural, realistic speech and AI music.",
-    "Top 3 Features": "Realistic text to speech; Voice cloning; AI song generation",
-    "Web Link": "https://elevenlabs.io/",
+    "Description": "ElevenLabs turns written text into natural, realistic speech and now generates full AI music, with voices that sound expressive and human-like.",
+    "Top 3 Features": "Realistic text to speech & speech to text; Voice cloning & dubbing; Eleven Music AI song generation",
+    "Web Link": "https://try.elevenlabs.io/ehw3vj4d2g44",
+    "Android Link": "https://play.google.com/store/apps/details?id=io.elevenlabs.coreapp&hl=en",
+    "IOS Link": "https://apps.apple.com/us/app/elevenlabs-ai-voice-generator/id6743162587",
     "Featured Image": "https://content.learnaibasic.com/aitoolsimages/elevenlabs.png"
+  },
+ {
+    "Tool Name": "HeyGen",
+    "Category": "Video",
+    "Description": "All-in-one AI video platform with the new Avatar V model that transforms text, images or audio into lifelike avatar videos with multilingual dubbing and real-time interactivity.",
+    "Top 3 Features": "Avatar V photorealistic talking avatars; 175+ language voice-cloning & lip-sync localization; Interactive avatars & Video Agent",
+    "Web Link": "https://www.heygen.com/?sid=rewardful&via=technologychannel",
+    "Android Link": "https://play.google.com/store/apps/details?id=com.heygen.app",
+    "IOS Link": "https://apps.apple.com/us/app/ai-video-generator-heygen/id6711356409",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/heygen.png"
+  },
+  {
+    "Tool Name": "Gamma - AI Presentation Maker",
+    "Category": "Presentation",
+    "Description": "An AI design partner that transforms outlines or ideas into polished presentations, documents, websites, and social media content, without needing design or coding skills.",    
+    "Top 3 Features": "Avatar V photorealistic talking avatars; 175+ language voice-cloning & lip-sync localization; Interactive avatars & Video Agent",    
+    "Web Link": "https://gamma.app/",
+    "Android Link": "https://play.google.com/store/apps/details?id=app.gamma.mobile&hl=en",
+    "IOS Link": "https://apps.apple.com/us/app/gamma-ai-slides-design/id6768404578",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/gamma.png"
+  },
+  {
+    "Tool Name": "Z.ai",
+    "Category": "AI Chatbot",
+    "Description": "AI assistant powered by the GLM-5 model family for chatting, coding, reasoning, image generation, and AI agents.",
+    "Top 3 Features": "GLM-5.2 flagship with strong agentic coding; Advanced AI chat & reasoning; Image generation & AI agents",
+    "Web Link": "https://z.ai/",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/zai.png"
+  },
+  {
+    "Tool Name": "ChatGPT",
+    "Category": "AI Chatbot",
+    "Description": "The most versatile all-round AI assistant for writing, coding, research, image generation, and voice conversations.",
+    "Top 3 Features": "GPT-5.6 model family for deep reasoning; GPT Image generation & file analysis; Budget ChatGPT Go plan available in Nepal",
+    "Web Link": "https://chatgpt.com",
+    "Android Link": "https://play.google.com/store/apps/details?id=com.openai.chatgpt&hl=en",
+    "IOS Link": "https://apps.apple.com/us/app/chatgpt/id6448311069",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/chatgpt.png"
+  },
+  {
+    "Tool Name": "Gemini",
+    "Category": "AI Chatbot",
+    "Description": "Google's multimodal AI powered by the Gemini 3 model family, integrated across Search, Gmail, Docs, Android, and YouTube. Also creates slides and documents via Canvas mode.",
+    "Top 3 Features": "Gemini 3 models for image, video & audio understanding; Deep Google Workspace integration; Canvas mode for slides & documents",
+    "Web Link": "https://gemini.google.com",
+    "Android Link": "https://play.google.com/store/apps/details?id=com.google.android.apps.bard&hl=en",
+    "IOS Link": "https://apps.apple.com/us/app/google-gemini/id6477489729",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/gemini.png"
+  },
+  {
+    "Tool Name": "Qwen AI",
+    "Category": "AI Chatbot",
+    "Description": "Qwen Chat is Alibaba's AI assistant powered by the Qwen3 model family, built for deep reasoning, web search, multimodal understanding, writing help, and image generation.",
+    "Top 3 Features": "Qwen3.7-Max flagship plus open-weight models; Deep Thinking + web search; Multimodal understanding & image generation",
+    "Web Link": "https://chat.qwen.ai/",
+    "Android Link": "https://play.google.com/store/apps/details?id=com.alibaba.tongyi",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/qwen.png"
+  },
+  {
+    "Tool Name": "Nano Banana",
+    "Category": "Image",
+    "Description": "Google's flagship AI image model (Gemini 3 Pro Image) inside Gemini, best-in-class at editing real photos and rendering accurate text in images.",
+    "Top 3 Features": "Accurate text rendering up to 4K; Precise photo editing from prompts; Works directly inside Gemini app",
+    "Web Link": "https://gemini.google.com",
+    "Android Link": "https://play.google.com/store/apps/details?id=com.google.android.apps.bard&hl=en",
+    "IOS Link": "https://apps.apple.com/us/app/google-gemini/id6477489729",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/gemini.png"
+  },
+ {
+    "Tool Name": "Grok",
+    "Category": "AI Chatbot",
+    "Description": "xAI's real-time chatbot, now under SpaceX, integrated with X, offering live data, an edgy tone, and image and video generation.",
+    "Top 3 Features": "Grok 4.5 reasoning models; Live data from X; Image & video generation",
+    "Web Link": "https://grok.com",
+    "Android Link": "https://play.google.com/store/apps/details?id=ai.x.grok&hl=en",
+    "IOS Link": "https://apps.apple.com/us/app/grok/id6670324846",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/grok.png"
+  },
+  {
+    "Tool Name": "DeepSeek",
+    "Category": "AI Chatbot",
+    "Description": "Chinese open-weight AI lab known for powerful, extremely low-cost models, now on the MIT-licensed DeepSeek V4 family with a 1M-token context window.",
+    "Top 3 Features": "DeepSeek V4 Pro & V4 Flash models; Very cheap API; Free mobile chat app",
+    "Web Link": "https://chat.deepseek.com",
+    "Android Link": "https://play.google.com/store/apps/details?id=com.deepseek.chat",
+    "IOS Link": "https://apps.apple.com/us/app/deepseek-ai-assistant/id6737597349",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/deepseek.png"
+  },
+  {
+    "Tool Name": "Grammarly",
+    "Category": "Writing",
+    "Description": "In-line AI writing assistant for clarity and tone, now part of the Superhuman productivity suite alongside Coda, Mail, and Superhuman Go.",
+    "Top 3 Features": "Rewrite/shorten; Tone adjustment; Superhuman Go AI agents across your apps",
+    "Web Link": "https://grammarly.com",
+    "Android Link": "https://play.google.com/store/apps/details?id=com.grammarly.android.keyboard&hl=en",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/grammarly.png"
+  },
+   {
+    "Tool Name": "Canva",
+    "Category": "Image",
+    "Description": "Drag-and-drop design suite with AI built into every step, from social posts to slides and video.",
+    "Top 3 Features": "Text-to-image & AI video (Veo-powered); Magic Write copywriting; Brand kits & templates",
+    "Web Link": "https://canva.com/magic",
+    "Android Link": "https://play.google.com/store/apps/details?id=com.canva.editor&hl=en",
+    "IOS Link": "https://apps.apple.com/us/app/canva-ai-photo-video-editor/id897446215",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/canva.png"
+  },
+   {
+    "Tool Name": "Gemini Notebook",
+    "Category": "Learning",
+    "Description": "Google's research assistant that grounds every answer in your uploaded documents, with Audio Overviews that turn notes into podcasts.",
+    "Top 3 Features": "Source-grounded answers, no hallucination; Audio Overview podcast generation; Auto outlines & study guides",
+    "Web Link": "https://notebook.google.com/",
+    "Android Link": "https://play.google.com/store/apps/details?id=com.google.android.apps.labs.language.tailwind",
+    "IOS Link": "https://apps.apple.com/us/app/google-notebooklm/id6737527615",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/notebooklm.png"
+  },
+  {
+    "Tool Name": "Adobe Firefly",
+    "Category": "Image",
+    "Description": "Adobe's commercially safe generative suite, deeply integrated with Photoshop, Illustrator, and Premiere Pro.",
+    "Top 3 Features": "Commercial-safe training data; Generative Fill in Photoshop; Style presets & vector recolor",
+    "Web Link": "https://adobe.com/firefly",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/firefly.png"
+  },
+  {
+    "Tool Name": "Cursor",
+    "Category": "Coding",
+    "Description": "The most popular AI-first code editor, now on Cursor 3 with parallel agents that build features and open pull requests for you.",
+    "Top 3 Features": "Agents Window for parallel AI agents; Background agents that open PRs; Composer in-house model for fast edits",
+    "Web Link": "https://cursor.com",
+    "Android Link": "–",
+    "IOS Link": "https://apps.apple.com/us/app/cursor/id6767085653",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/cursor.jpeg"
+  },
+  {
+    "Tool Name": "Midjourney",
+    "Category": "Image",
+    "Description": "The leader in artistic AI image quality, now on V8, producing images with stronger composition, mood, and stylistic cohesion than most competitors.",
+    "Top 3 Features": "Best-in-class artistic quality (V8.1); Style references & consistency tools; Web editor & video generation",
+    "Web Link": "https://midjourney.com",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/amidjourney.png"
+  },
+  {
+    "Tool Name": "OpenArt",
+    "Category": "Image",
+    "Description": "An AI-powered platform to create, edit, upscale, and animate visuals, from images and characters to videos, using a wide range of models and intuitive tools.",
+    "Top 3 Features": "Text-to-image & image-to-image generation; Advanced editing tools (inpainting, magic brush, style transfer, background removal); Video & character capabilities including AI-generated videos, consistent character creation, and lip-sync",
+    "Web Link": "https://openart.ai/",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/openart.png"
+  },
+  {
+    "Tool Name": "Trae AI",
+    "Category": "Coding",
+    "Description": "AI-powered IDE with agents, autocompletion, and tool integration for seamless coding",
+    "Top 3 Features": "Custom AI agents; Smart autocomplete; Tool & context integration",
+    "Web Link": "https://trae.ai",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/traeai.png"
+  },
+ {
+    "Tool Name": "GitHub Copilot",
+    "Category": "Coding",
+    "Description": "AI pair programmer inside GitHub and popular IDEs, now with agent mode and multi-model support.",
+    "Top 3 Features": "Agent mode for multi-step tasks; Choose Claude, GPT or Gemini models; AI code review & completions",
+    "Web Link": "https://github.com/features/copilot",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/githubcopilot.png"
+  },
+  {
+    "Tool Name": "Veo",
+    "Category": "Video",
+    "Description": "Google DeepMind's flagship text-to-video model with native 4K output, synchronized audio, and multi-shot storyboards, used mainly through Google Flow.",
+    "Top 3 Features": "Native 4K video with audio & dialogue; Best-in-class prompt adherence; Free access via Google Flow & Gemini",
+    "Web Link": "https://deepmind.google/models/veo",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/gemini.png"
+  },
+ {
+    "Tool Name": "Claude",
+    "Category": "AI Chatbot",
+    "Description": "Anthropic's AI assistant, best for long-form writing, complex reasoning, coding, and working across large documents.",
+    "Top 3 Features": "Claude Fable 5, Anthropic's newest frontier model; Best-in-class coding & agent capabilities; Artifacts, file creation & computer use",
+    "Web Link": "https://claude.ai",
+    "Android Link": "https://play.google.com/store/apps/details?id=com.anthropic.claude&hl=en",
+    "IOS Link": "https://apps.apple.com/us/app/claude-by-anthropic/id6473753684",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/claude.png"
+  },
+   {
+    "Tool Name": "Claude Code",
+    "Category": "Coding",
+    "Description": "Anthropic's agentic coding tool, the top-ranked AI coding agent of 2026, built for terminals, IDEs, and large codebases.",
+    "Top 3 Features": "Leads SWE-bench coding benchmarks; Works in terminal, VS Code & desktop; Handles multi-file tasks end-to-end",
+    "Web Link": "https://claude.com/claude-code",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/claude.png"
+  },
+  {
+    "Tool Name": "Stitch",
+    "Category": "UI/UX",
+    "Description": "Generates UIs for mobile and web applications, making design ideation fast and easy.",
+    "Top 3 Features": "AI-powered UI generation; Mobile & web support; Rapid design ideation",
+    "Web Link": "https://stitch.withgoogle.com/",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/gemini.png"
+  },
+  {
+    "Tool Name": "Synthesia",
+    "Category": "Video",
+    "Description": "Studio-quality avatar videos in 140+ languages",
+    "Top 3 Features": "Custom avatars; Branded templates; Script-to-subtitle",
+    "Web Link": "https://synthesia.io",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/synthesia.png"
+  },
+ {
+    "Tool Name": "Replit",
+    "Category": "Coding",
+    "Description": "Online IDE with an AI agent that builds, tests, and deploys apps from natural language prompts.",
+    "Top 3 Features": "Replit Agent 3 builds full apps; Multi-file context & explain code; Instant hosting & deployment",
+    "Web Link": "https://replit.com",
+    "Android Link": "https://play.google.com/store/apps/details?id=com.replit.app",
+    "IOS Link": "https://apps.apple.com/us/app/replit-idea-to-app-fast/id1614022293",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/replit.png"
+  },
+  {
+    "Tool Name": "Zapier",
+    "Category": "Automation",
+    "Description": "Orchestrates GPT/Claude inside no-code workflows",
+    "Top 3 Features": "AI Agents; Perfect Prompt; 6k+ app integrations",
+    "Web Link": "https://zapier.com/ai",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/zapier.png"
+  },
+  {
+    "Tool Name": "n8n",
+    "Category": "Automation",
+    "Description": "Open-source, self-hosted automation with AI agent nodes",
+    "Top 3 Features": "AI Agent & LLM chain builder; Self-hosted & privacy-friendly; No-limits license",
+    "Web Link": "https://n8n.io",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/n8n.png"
+  },
+  {
+    "Tool Name": "Make.com",
+    "Category": "Automation",
+    "Description": "Visual workflow builder for connecting apps, automating processes, and integrating AI tools",
+    "Top 3 Features": "AI agents; No-code scenario builder; 1000+ app integrations",
+    "Web Link": "https://www.make.com",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/make.png"
+  },
+  {
+    "Tool Name": "Suno",
+    "Category": "Music",
+    "Description": "One-click text-to-music platform that generates complete songs with vocals from a prompt, now on the v5.5 model.",
+    "Top 3 Features": "Full songs with vocals (v5.5 model); Studio DAW, stems & Vocal Personas; Lyric prompts & community feed",
+    "Web Link": "https://suno.com",
+    "Android Link": "https://play.google.com/store/apps/details?id=com.suno.android&hl=en",
+    "IOS Link": "https://apps.apple.com/us/app/suno-ai-songs/id6480136315",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/suno.png"
+  },
+  {
+    "Tool Name": "Murf AI",
+    "Category": "Sound",
+    "Description": "200+ studio voices & voice changer",
+    "Top 3 Features": "Voice-to-voice swap; Dubbing; API & integrations",
+    "Web Link": "https://murf.ai",
+    "Android Link": "–",
+    "IOS Link": "https://apps.apple.com/us/app/merfi-ai-text-to-speech-tts/id6475700602",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/murf_ai.png"
+  },
+   {
+    "Tool Name": "Perplexity",
+    "Category": "AI Chatbot",
+    "Description": "AI answer engine that cites real-time sources for every answer, the most trusted tool for research and fact-checking.",
+    "Top 3 Features": "Cited, real-time answers; Deep Research mode; Model switching & file uploads",
+    "Web Link": "https://perplexity.ai",
+    "Android Link": "https://play.google.com/store/apps/details?id=ai.perplexity.app.android&hl=en",
+    "IOS Link": "https://apps.apple.com/us/app/perplexity-ask-anything/id1668000334",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/perplexity.png"
+  },
+  {
+    "Tool Name": "Perplexity Comet",
+    "Category": "AI Browser",
+    "Description": "AI-first web browser from Perplexity that browses, summarizes, and completes tasks on websites for you.",
+    "Top 3 Features": "Built-in AI assistant on every page; Automates web tasks & research; Summarizes tabs & articles instantly",
+    "Web Link": "https://comet.perplexity.ai",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/perplexity.png"
+  },
+   {
+    "Tool Name": "FLUX",
+    "Category": "Image",
+    "Description": "Black Forest Labs' open-weight image models, now on FLUX.2, the leading open-source option for high-quality generation and editing.",
+    "Top 3 Features": "FLUX.2 open-weight models to run anywhere; Kontext prompt-based editing; Strong realism & prompt adherence",
+    "Web Link": "https://bfl.ai",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/flux.png"
+  },
+  {
+    "Tool Name": "InVideo AI",
+    "Category": "Video",
+    "Description": "Prompt-to-video with stock, voiceover & subtitles",
+    "Top 3 Features": "Scene auto-match; Brand presets; Multi-platform ratios",
+    "Web Link": "https://invideo.io",
+    "Android Link": "https://play.google.com/store/apps/details?id=io.invideo.ai&hl=en",
+    "IOS Link": "https://apps.apple.com/in/app/invideo-ai-ai-video-generator/id6471394316",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/default.png"
+  },
+ {
+    "Tool Name": "Looka",
+    "Category": "Image",
+    "Description": "AI logo & brand-kit generator for SMBs",
+    "Top 3 Features": "300+ templates; Social kits; Business card export",
+    "Web Link": "https://looka.com",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/lookaai.png"
+  },
+   {
+    "Tool Name": "Google Antigravity",
+    "Category": "Coding",
+    "Description": "Next-generation AI IDE and agentic development platform that evolves the editor into an agent-first experience for developers.",
+    "Top 3 Features": "AI IDE core with tab autocompletion and natural language code commands; Cross-surface agents synchronized across editor, terminal, and browser; Mission control view to monitor agent activity, review artifacts, and manage multiple agents",
+    "Web Link": "https://antigravity.google/",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/gemini.png"
+  },
+  {
+    "Tool Name": "Lovable",
+    "Category": "App Builder",
+    "Description": "Describe your app in plain English and Lovable builds a working full-stack web app with database and login, no coding needed.",
+    "Top 3 Features": "Full-stack apps from a text prompt; Built-in database & authentication; One-click publish & GitHub sync",
+    "Web Link": "https://lovable.dev",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/default.png"
+  },
+  {
+    "Tool Name": "Bolt.new",
+    "Category": "App Builder",
+    "Description": "AI-powered app builder by StackBlitz that turns prompts into deployable full-stack web and mobile apps directly in the browser.",
+    "Top 3 Features": "Prompt-to-app in the browser; Full-stack code you can edit; Instant deployment & hosting",
+    "Web Link": "https://bolt.new",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/bolt.png"
+    },
+   {
+    "Tool Name": "Devin Desktop",
+    "Category": "Coding",
+    "Description": "Cognition's AI IDE, formerly Windsurf, rebuilt around an Agent Command Center for managing local and cloud Devin coding agents in one place.",
+    "Top 3 Features": "Devin Local coding agent; Agent Command Center with Kanban view; Runs Codex, Claude & Gemini agents via ACP",
+    "Web Link": "https://devin.ai",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/devin.png"
+  },
+  {
+    "Tool Name": "Kling AI",
+    "Category": "Video",
+    "Description": "Kuaishou's AI video model and the best value in premium video generation, with Kling 3.0 delivering native 4K, realistic motion, and multilingual lip-sync.",
+    "Top 3 Features": "Kling 3.0 with native 4K and 60fps; Realistic human motion & physics; Multilingual lip-sync & native audio",
+    "Web Link": "https://klingai.com",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/kling.png"
+  },
+  {
+    "Tool Name": "Runway",
+    "Category": "Video",
+    "Description": "Professional AI video studio built around the Gen-4.5 model, favored by filmmakers for camera control and character consistency.",
+    "Top 3 Features": "Gen-4.5 leaderboard-topping quality; Motion brush & camera controls; Access to Veo & Kling in one dashboard",
+    "Web Link": "https://runwayml.com",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/runway.png"
+  },
+   {
+    "Tool Name": "OpusClip",
+    "Category": "Video",
+    "Description": "Turns one long video into dozens of viral-ready short clips with captions, the market leader for YouTube-to-Shorts repurposing.",
+    "Top 3 Features": "AI virality score per clip; Auto captions & reframing to 9:16; Direct posting to TikTok, Reels & Shorts",
+    "Web Link": "https://www.opus.pro",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/opusclip.png"
+  },
+ {
+    "Tool Name": "Manus",
+    "Category": "AI Agent",
+    "Description": "General-purpose autonomous AI agent that plans and executes multi-step tasks like research, reports, and websites on its own.",
+    "Top 3 Features": "Autonomous task execution; Research & report generation; Builds websites & slides end-to-end",
+    "Web Link": "https://manus.im",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/manus.png"
+  },
+  {
+    "Tool Name": "Otter.ai",
+    "Category": "Productivity",
+    "Description": "AI meeting assistant that joins your calls, transcribes them in real time, and generates summaries and action items automatically.",
+    "Top 3 Features": "Real-time transcription; Auto meeting summaries & action items; Works with Zoom, Meet & Teams",
+    "Web Link": "https://otter.ai",
+    "Android Link": "https://play.google.com/store/apps/details?id=com.aisense.otter",
+    "IOS Link": "https://apps.apple.com/us/app/otter-transcribe-voice-notes/id1276437113",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/otter.png"
+  },
+    {
+    "Tool Name": "Kimi",
+    "Category": "AI Chatbot",
+    "Description": "Moonshot AI's assistant powered by the frontier-level open-weight Kimi K3 model, strong at reasoning, coding, long documents, and agentic tasks, with a generous free tier.",
+    "Top 3 Features": "Kimi K3 frontier open model with 1M context; OK Computer agent builds sites & slides; Agent Swarm for deep research",
+    "Web Link": "https://www.kimi.com",
+    "Android Link": "https://play.google.com/store/apps/details?id=com.moonshot.kimichat",
+    "IOS Link": "https://apps.apple.com/us/app/id6474233312",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/kimi.png"
+  },
+    {
+    "Tool Name": "Microsoft Copilot",
+    "Category": "AI Chatbot",
+    "Description": "Microsoft's free AI assistant for chat, image generation, and voice, built into Windows, Edge, and Microsoft 365 apps.",
+    "Top 3 Features": "Free GPT-class chat & image generation; Multi-model (GPT, Claude & Microsoft models); Deep Windows & Office integration",
+    "Web Link": "https://copilot.microsoft.com",
+    "Android Link": "https://play.google.com/store/apps/details?id=com.microsoft.copilot",
+    "IOS Link": "https://apps.apple.com/us/app/id6472538445",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/copilot.png"
+  },
+    {
+    "Tool Name": "Meta AI",
+    "Category": "AI Chatbot",
+    "Description": "Meta's free AI assistant built on the new Muse Spark model, available as a standalone app and inside WhatsApp, Messenger, Instagram, and Facebook.",
+    "Top 3 Features": "Free AI chat inside WhatsApp & Messenger; Image & AI video generation with Vibes; Voice chat & file analysis",
+    "Web Link": "https://www.meta.ai",
+    "Android Link": "https://play.google.com/store/apps/details?id=com.facebook.stella",
+    "IOS Link": "https://apps.apple.com/us/app/meta-ai/id1558240027",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/meta.png"
+  },
+   {
+    "Tool Name": "CapCut",
+    "Category": "Video",
+    "Description": "ByteDance's free video editor built for TikTok, Reels, and Shorts, with AI captions, templates, effects, and one-tap edits on mobile and desktop.",
+    "Top 3 Features": "Auto captions & subtitles; AI templates, effects & background removal; Free on mobile, desktop & web",
+    "Web Link": "https://www.capcut.com",
+    "Android Link": "https://play.google.com/store/apps/details?id=com.lemon.lvoverseas",
+    "IOS Link": "https://apps.apple.com/us/app/id1500855883",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/default.png"
+  },
+    {
+    "Tool Name": "Google Flow",
+    "Category": "Video",
+    "Description": "Google's AI filmmaking studio powered by Veo 3.1 and Imagen, turning text and images into cinematic clips, scenes, and full sequences.",
+    "Top 3 Features": "Veo 3.1 powered clip generation; Ingredients & scene builder for consistency; Free monthly AI credits with Google account",
+    "Web Link": "https://labs.google/fx/tools/flow",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/gemini.png"
+  },
+   {
+    "Tool Name": "Notion AI",
+    "Category": "Productivity",
+    "Description": "AI built into the Notion workspace for writing, summarizing, and answering questions across all your notes, docs, and projects.",
+    "Top 3 Features": "In-doc AI writing & editing; Q&A across your whole workspace; AI meeting notes & summaries",
+    "Web Link": "https://www.notion.com",
+    "Android Link": "https://play.google.com/store/apps/details?id=notion.id",
+    "IOS Link": "https://apps.apple.com/us/app/id1232780281",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/notion.png"
+  },
+  {
+    "Tool Name": "Google Opal",
+    "Category": "Automation",
+    "Description": "Google Labs' no-code builder for chaining prompts, models, and tools into shareable AI mini-apps, no programming needed.",
+    "Top 3 Features": "No-code AI mini-app builder; Visual prompt chaining editor; Free to build & share",
+    "Web Link": "https://opal.withgoogle.com",
+    "Android Link": "–",
+    "IOS Link": "–",
+    "Featured Image": "https://content.learnaibasic.com/aitoolsimages/gemini.png"
   }
+
 ]
