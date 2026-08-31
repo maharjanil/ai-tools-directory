@@ -75,7 +75,7 @@ function applyFiltersAndRender() {
     renderTools(result);
 }
 
-// 4. Render Main Cards (3 per row on all screens)
+// 4. Render Main Cards (3 per row on medium+ screens)
 function renderTools(toolsToDisplay) {
     const container = document.getElementById('tools-container');
     container.innerHTML = ''; 
@@ -92,7 +92,8 @@ function renderTools(toolsToDisplay) {
 
     toolsToDisplay.forEach(tool => {
         const col = document.createElement('div');
-        col.className = 'col-12 col-md-6 col-lg-4'; // 3 per row on large screens
+        // FIXED: 3 per row on medium screens and up
+        col.className = 'col-12 col-md-4';
 
         let mobileLinksHtml = '<div class="mt-3 d-flex gap-2">';
         if (tool['Android Link'] && tool['Android Link'] !== '–') {
@@ -146,10 +147,10 @@ function setupOverviewModal() {
         ).length;
         document.getElementById('tools-with-apps-count').textContent = toolsWithApps;
 
-        // Render all tools in overview (3 per row)
+        // Render all tools in overview (3 per row on medium+ screens)
         const overviewContainer = document.getElementById('overview-tools-container');
         overviewContainer.innerHTML = allTools.map(tool => `
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-4">
                 <div class="card overview-tool-card h-100 shadow-sm">
                     <div class="card-body">
                         <div class="d-flex align-items-center mb-2">
